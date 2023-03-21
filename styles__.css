@@ -1,0 +1,17 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 30;
+    color: blue;
+}
+
+.output {
+    font-style: italic;
+    color: red;
+}
