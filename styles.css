@@ -4,21 +4,61 @@
 }
 
 h1 {
-    font-size: 30;
+    font-size: 60;
     color: blue;
 }
 
-header {
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.header-inner {
+    margin: 50px 0;
     height: 100px;
     background-color: gray;
 }
 
-main {
+.main-inner {
+    margin: 50px 0;
     height: 600px;
     background-color: aquamarine;
 }
 
-footer {
+.footer-inner {
     height: 100px;
     background-color: bisque;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .header-inner {
+        margin: 30px 0;
+    }
+
+    .main-inner {
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .header-inner {
+        margin: 15px 0;
+    }
+
+    .main-inner {
+        margin: 15px 0;
+    }
 }
